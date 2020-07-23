@@ -14,6 +14,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { AuthModule } from './pages/auth/auth.module';
 import { HomeComponent } from './pages/home/home.component';
 import { TodoComponent } from './pages/todo/todo.component';
+import { NgxTableModule } from '@paaragon/ngx-table';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { TodoComponent } from './pages/todo/todo.component';
     ToastrModule.forRoot(),
     MatCardModule,
     MatButtonModule,
+    NgxTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
