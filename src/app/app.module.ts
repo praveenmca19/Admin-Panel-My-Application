@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { ToastrModule } from 'ngx-toastr';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import {ButtonModule} from 'primeng/button';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
@@ -15,6 +16,7 @@ import { AuthModule } from './pages/auth/auth.module';
 import { HomeComponent } from './pages/home/home.component';
 import { TodoComponent } from './pages/todo/todo.component';
 import { NgxTableModule } from '@paaragon/ngx-table';
+import {TableModule} from 'primeng/table';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { NgxTableModule } from '@paaragon/ngx-table';
     MatCardModule,
     MatButtonModule,
     NgxTableModule,
+    ButtonModule,
+    TableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
